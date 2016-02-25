@@ -1,0 +1,32 @@
+{
+  "name": "TestProject",
+  "authors": [
+    {
+      "name": "Calmacil",
+      "email": "thomas.lenoel@gmail.com"
+    }
+  ],
+  "description": "A testing project",
+  "version": "0.1.0",
+  "require": {
+    "calmacil/mf" : ">=0.4.0@dev",
+    "calmacil/mfsecurity" : ">=0.1.3@dev"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "file:///home/calmacil/dev-web/Mf"
+    }, {
+      "type": "git",
+      "url": "file:///home/calmacil/dev-web/MfSecurity"
+    }
+  ],
+  "scripts": {
+    "post-install-cmd": "Mf\\InstallScript::postInstall"
+  },
+  "autoload": {
+    "psr-4": {
+      "Myproject\\": "src"
+    }
+  }
+}

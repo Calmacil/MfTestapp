@@ -1,0 +1,28 @@
+{
+  "project_name": "myproject",
+  "debug": true,
+  "log": {
+    "logfile": "logs/app.log",
+    "loglevel": "debug"
+  },
+  "paths": {
+    "cache_dir": "cache",
+    "twig_cache": "cache/twig",
+    "routing_file": "routing",
+    "templates_dir": "templates"
+  },
+  "page404": null,
+  "security": {
+    "provider": "settings",
+    "user": [
+      {
+        "username": "admin",
+        "password": "admin1138",
+        "salt": "1138"
+      }, {
+        "username": "member",
+        "password": "test"
+      }
+    ]
+  }
+}

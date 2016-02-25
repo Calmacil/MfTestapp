@@ -1,0 +1,22 @@
+{
+  "home": {
+    "pattern": "/*",
+    "controller": "home",
+    "action": "index"
+  },
+  "member": {
+    "pattern": "/member",
+    "controller": "home",
+    "action": "member"
+  },
+  "admin": {
+    "pattern": "/admin",
+    "controller": "home",
+    "action": "protect"
+  },
+  "login": {
+    "pattern": "/login",
+    "controller": "home",
+    "action": "login"
+  }
+}

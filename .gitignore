@@ -1,0 +1,6 @@
+/.phpcomplete_extended/
+/cache/
+/logs/
+/vendor/
+composer.lock
+composer.phar
