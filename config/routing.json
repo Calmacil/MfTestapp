@@ -1,9 +1,4 @@
 {
-  "home": {
-    "pattern": "/*",
-    "controller": "home",
-    "action": "index"
-  },
   "member": {
     "pattern": "/member",
     "controller": "home",
@@ -18,5 +13,11 @@
     "pattern": "/login",
     "controller": "home",
     "action": "login"
+  },
+  
+  "home": {
+    "pattern": "/",
+    "controller": "home",
+    "action": "index"
   }
 }

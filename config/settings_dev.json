@@ -12,9 +12,10 @@
     "templates_dir": "templates"
   },
   "page404": null,
+  "page403": null,
   "security": {
     "provider": "settings",
-    "user": [
+    "users": [
       {
         "username": "admin",
         "password": "admin1138",

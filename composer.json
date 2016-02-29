@@ -9,7 +9,7 @@
   "description": "A testing project",
   "version": "0.1.0",
   "require": {
-    "calmacil/mf" : ">=0.4.0@dev",
+    "calmacil/mf" : ">=0.4.4@dev",
     "calmacil/mfsecurity" : ">=0.1.3@dev"
   },
   "repositories": [
