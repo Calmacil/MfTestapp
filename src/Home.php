@@ -8,7 +8,7 @@ class Home extends \Calma\Mf\Controller
   protected $template = array(
     'index' => 'home/index',
     'member' => 'home/member',
-    'protect' => 'home/protect'
+    'protect' => 'home/protected'
   );
 
   public $credentials = array(
@@ -46,6 +46,12 @@ class Home extends \Calma\Mf\Controller
       return $this->redirect('member');
     }
     $this->info('KO: User rejected, go back');
+    return $this->redirect('home');
+  }
+  
+  public function logout()
+  {
+    $this->app['security']->logout();
     return $this->redirect('home');
   }
 }
