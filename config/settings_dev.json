@@ -19,10 +19,12 @@
       {
         "username": "admin",
         "password": "admin1138",
-        "salt": "1138"
+        "salt": "1138",
+        "role": "ADMIN"
       }, {
         "username": "member",
-        "password": "test"
+        "password": "test",
+        "role": "MEMBER"
       }
     ]
   }
