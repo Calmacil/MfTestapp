@@ -2,9 +2,9 @@
   "master": {
     "driver":   "mysql",
     "host":     "localhost",
-    "post":     "3306",
-    "dbname":   "myproject",
-    "user":     "johndoe",
-    "password": "*******"
+    "port":     "3306",
+    "dbname":   "testproject",
+    "user":     "testproject",
+    "password": "royalgala"
   }
 }

@@ -46,6 +46,7 @@ class Home extends \Calma\Mf\Controller
       return $this->redirect('member');
     }
     $this->info('KO: User rejected, go back');
+    exit();
     return $this->redirect('home');
   }
   

@@ -14,7 +14,10 @@
   "page404": null,
   "page403": null,
   "security": {
-    "provider": "settings",
+    "provider": "database",
+    "dbname": "master",
+    "tablename": "users",
+    "hashmethod": "sha512",
     "users": [
       {
         "username": "admin",
