@@ -7,6 +7,7 @@ CREATE TABLE `users` (
   `username` VARCHAR(32) NOT NULL,
   `password` VARCHAR(128) NOT NULL,
   `salt` VARCHAR(128) NOT NULL,
+  `email` VARCHAR(64) DEFAULT NULL,
   `role` ENUM('MEMBER','ADMIN') DEFAULT 'MEMBER',
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME DEFAULT NULL,

@@ -2,8 +2,14 @@
 
 {% block content %}
   <h2>Member zone!</h2>
-  <p>So you've successfully passed the login step. Now you might want to
-  try the <a href="{{ url('admin', {'name': 'Togo'}) }}">Admin</a> step!</p>
+  <p>So you've successfully passed the login step. 
+  {% if has_credentials('ADMIN') %}
+  Now you might want to
+  try the <a href="{{ url('admin', {'name': 'Togo'}) }}">Admin</a> step!
+  {% else %}
+  Unfortunately, you cannot access to the admin zone.
+  {% endif %}
+  </p>
   
   <p><a href="{{ url('logout') }}">Log out.</a></p>
 {% endblock %}
