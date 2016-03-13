@@ -12,8 +12,8 @@ class Home extends \Calma\Mf\Controller
   );
 
   public $credentials = array(
-    'member' =>    ['MEMBER', 'ADMIN'],
-    'protect' => ['ADMIN']
+    'member' =>    'MEMBER',
+    'protect' => 'ADMIN'
   );
 
   public function index()
